@@ -1,0 +1,2 @@
+./masm_mrd < IO_adder.asm > IO_adder.obj
+./mic1 prom_mrd.dat IO_adder.obj 0 2048

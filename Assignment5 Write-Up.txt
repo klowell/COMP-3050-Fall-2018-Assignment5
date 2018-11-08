@@ -1,0 +1,22 @@
+Kristopher Lowell
+kristopher_lowell@student.uml.edu
+COMP - 3050 - 201
+Fall 2018
+11/8/2018
+
+Assignment 5 Write-Up
+
+I personally think I completed this assignment 100 %.  I decided to just use the helper file
+instead of reinventing the wheel.  I did, however have to edit the "nextw" (now prline) and 
+"crnl" sections in order to be able to use the same routine for my three different strings.
+I ended up having a hiccup with printing the "The sum of these integers is:" line.  It would
+either go into an infinite loop, or cause a memory leak.  That's where I editted "nextw" in order
+to free the stack in the case it does have to go to crnl in the 1 character case. I took kind
+of a brute force way into printing the actual sum.  I just decided it would maybe be easier
+to read and understand if I didn't institute a new loop counter and a new pointer (in order 
+to divide by 10000, 1000, 100, 10).  This program could definitely be more efficient, but
+I think it might be easier to follow this way.  I hope I didn't go overkill with the comments.
+I'm sure, also with a little rework, this could be altered to account for mistaken entries
+(i.e. backspace, non-numerical characters, etc.).  But since I'm fairly confident that would
+be beyond the scope of this assignment, I'll stick to my guns and say I completed it 100% of
+the way.
